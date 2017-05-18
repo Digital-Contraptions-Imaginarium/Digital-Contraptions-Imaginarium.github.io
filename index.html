@@ -65,12 +65,12 @@
 <img id = "bg" src="images/001.png" alt="">
 
 <div id="header">
-    <img id = "headerLogo" src="images/header-logo.png" alt="">
+    <img id="headerLogo" src="images/header-logo.png" alt="">
 </div>
 
 <div id="footer">
     <div>
-        Digital Contraptions Imaginarium (DICO.IM) won't fix your knee, but can help you address any issue you're dealing with, at the crossings of <b>data, people and technology</b>. Get in touch at <a href="mailto:info@dico.im?Subject=Please%20fix%20my%20knee">info@dico.im</a> or <a target="dicoim_twitter" href="https://twitter.com/dicoim">@dicoim</a>, or call Gianfranco on +44 7595 041806.
+        We won't fix your knee, but can help you address any issue you're dealing with, at the crossings of <b>data, people and technology</b>. Perhaps, everything you need is one of the digital contraptions from our imaginarium. Get in touch at <a href="mailto:info@dico.im?Subject=Please%20fix%20my%20knee">info@dico.im</a> or <a target="dicoim_twitter" href="https://twitter.com/dicoim">@dicoim</a>, or call Gianfranco on +44 7595 041806.
     </div>
     <div id="smallprint">
         Digital Contraptions Imaginarium Limited is a company registered in England and Wales with company number 8637230.<br>Address: 22 Greenway, Berkhamsted, HP4 3JD, UK. Registered Office: First Floor, Telecom House, 125-135 Preston Road, Brighton, BN1 6AF, UK.
@@ -84,11 +84,14 @@
             $bg = $("#bg"),
             $header = $("#header"),
             $footer = $("#footer"),
+            $headerLogo = $("#headerLogo"),
     	    imageAspectRatio = $bg.width() / $bg.height();
 
     	function resizeBg() {
             let usableHeight = theWindow.height() - $header.height() - $footer.height();
                 windowAspectRatio = theWindow.width() / usableHeight;
+            // $headerLogo.width(usableHeight * .05 + "px");
+            // $headerLogo.height(usableHeight * .05 + "px");
             if (windowAspectRatio > imageAspectRatio) {
                 $bg.height(usableHeight + "px");
                 $bg.width($bg.height() * imageAspectRatio);
