@@ -7,6 +7,11 @@
       font-family: 'Exo', sans-serif;
       font-family: 'Slackey', cursive;
   }
+  a:link { color: black; }
+  a:visited { color: black; }
+  a:hover { color: black; }
+  a:active { color: black;
+}
   h1, h2 {
     display: inline-block;
     background: #fff;
@@ -23,29 +28,51 @@
       background: #fd0;
   }
   #bg { position: fixed; }
-  #bottomMessage {
-      font-family: Exo;
+  #headerLogo {
+      display: block;
+      margin: auto;
+  }
+  #header {
+      font-family: Slackey;
       font-size: 22px;
       width: 100%;
-      padding: 15px;
+      padding: 1px;
+      position: fixed;
+      align: center;
+      top: 0;
+      background: rgba(255, 255, 255, 1);
+  }
+  #footer {
+      font-family: Exo;
+      font-size: 18px;
+      width: 100%;
+      padding-top: 5px;
+      padding-left: 5px;
+      padding-right: 15px;
       position: fixed;
       bottom: 0;
       background: rgba(255, 255, 255, 1);
   }
-  #footer {
+  #smallprint {
+      margin-top: 3px;
       text-align:center;
       color: #999;
       font-size: 10px;
   }
 </style>
 
+
 <img id = "bg" src="images/001.png" alt="">
 
-<div id="bottomMessage">
+<div id="header">
+    <img id = "headerLogo" src="images/header-logo.png" alt="">
+</div>
+
+<div id="footer">
     <div>
         Digital Contraptions Imaginarium (DICO.IM) won't fix your knee, but can help you address any issue you're dealing with, at the crossings of <b>data, people and technology</b>. Get in touch at <a href="mailto:info@dico.im?Subject=Please%20fix%20my%20knee">info@dico.im</a> or <a target="dicoim_twitter" href="https://twitter.com/dicoim">@dicoim</a>, or call Gianfranco on +44 7595 041806.
     </div>
-    <div id="footer">
+    <div id="smallprint">
         Digital Contraptions Imaginarium Limited is a company registered in England and Wales with company number 8637230.<br>Address: 22 Greenway, Berkhamsted, HP4 3JD, UK. Registered Office: First Floor, Telecom House, 125-135 Preston Road, Brighton, BN1 6AF, UK.
     </div>
 </div>
@@ -55,24 +82,25 @@
 
         var theWindow = $(window),
             $bg = $("#bg"),
-            $bottomMessage = $("#bottomMessage"),
+            $header = $("#header"),
+            $footer = $("#footer"),
     	    imageAspectRatio = $bg.width() / $bg.height();
 
     	function resizeBg() {
-            let usableHeight = theWindow.height() - $bottomMessage.height();
+            let usableHeight = theWindow.height() - $header.height() - $footer.height();
                 windowAspectRatio = theWindow.width() / usableHeight;
             if (windowAspectRatio > imageAspectRatio) {
                 $bg.height(usableHeight + "px");
                 $bg.width($bg.height() * imageAspectRatio);
                 $bg.css({
-                    "top": "0px",
+                    "top": $header.height() + "px",
                     "left": Math.max(0, theWindow.width() - $bg.width()) / 2 + "px"
                 });
             } else {
                 $bg.width("100%");
                 $bg.height($bg.width() / imageAspectRatio);
                 $bg.css({
-                    "top": Math.max(0, usableHeight - $bg.height()) / 2 + "px",
+                    "top": $header.height() + Math.max(0, usableHeight - $bg.height()) / 2 + "px",
                     "left": "0px"
                 });
             }
