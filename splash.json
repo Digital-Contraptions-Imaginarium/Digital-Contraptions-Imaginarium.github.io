@@ -1,0 +1,17 @@
+[
+    {
+        "image": "knee.png",
+        "background": "#000",
+        "message": "We won't fix your knee, but can help you address any issue you're dealing with, at the crossings of <b>data, people and technology</b>. You may find out that everything you need is just one of the digital contraptions from our imaginarium."
+    },
+    {
+        "image": "mercury.png",
+        "background": "#000",
+        "message": "Yes, that's ambitious, but I believe we can help you get that, too. Whether your problem is about <b>data, people or technology</b>, perhaps, everything you need is just one of the digital contraptions from our imaginarium."
+    },
+    {
+        "image": "cat.png",
+        "background": "#000",
+        "message": "Yeah, annoying, moreover who needs big data anyway? It's more about <b>data, people and technology</b> coming together properly. Perhaps, everything you need is just one of the digital contraptions from our imaginarium."
+    }
+]
