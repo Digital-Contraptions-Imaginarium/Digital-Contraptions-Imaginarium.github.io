@@ -12,6 +12,16 @@
     {
         "image": "cat.png",
         "background": "#000",
-        "message": "Yeah, annoying, moreover who needs big data anyway? It's more about <b>data, people and technology</b> coming together properly. Perhaps, everything you need is just one of the digital contraptions from our imaginarium."
+        "message": "Yeah, annoying, moreover who needs *big* data anyway? It's more about <b>data, people and technology</b> coming together properly. Perhaps, everything you need is just one of the digital contraptions from our imaginarium."
+    },
+    {
+        "image": "mordor.png",
+        "background": "#000",
+        "message": "Data scientists are great, but sometimes it's useful to hire someone who can talk, too, and looks at you in the eyes when you do. It's never just about coding, it's about <b>data, people and technology</b> together. Perhaps, everything you need is just us, and one of the digital contraptions from our imaginarium."
+    },
+    {
+        "image": "doge.png",
+        "background": "#000",
+        "message": "No, being open with your software and with your data is not a fad. Believe it or not, you can open up your digital assets and still pay the mortgage at the end of the month. Well, al least, it works for me! The business model is important, but it is more about <b>data, people and technology</b> together. Don't believe me? Come and visit our digital contraptions imaginarium."
     }
 ]
