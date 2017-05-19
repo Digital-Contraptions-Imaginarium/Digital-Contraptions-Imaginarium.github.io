@@ -22,6 +22,21 @@
     {
         "image": "doge.png",
         "background": "#000",
-        "message": "No, being open with your software and with your data is not a fad. Believe it or not, you can open up your digital assets and still pay the mortgage at the end of the month. Well, al least, it works for me! The business model is important, but it is more about <b>data, people and technology</b> together. Don't believe me? Come and visit our digital contraptions imaginarium."
+        "message": "No: being open with your software and with your data is not a fad. Believe it or not, you can open up your digital assets and still pay the mortgage at the end of the month. Well, al least, it works for us! The business model is important, but it is more about <b>data, people and technology</b> together. Don't believe me? Come and visit our digital contraptions imaginarium."
+    },
+    {
+        "image": "most-interesting-man.png",
+        "background": "#000",
+        "message": "No: being open with your software and with your data is not a fad. Believe it or not, you can open up your digital assets and still pay the mortgage at the end of the month. Well, al least, it works for us! The business model is important, but it is more about <b>data, people and technology</b> together. Don't believe me? Come and visit our digital contraptions imaginarium."
+    },
+    {
+        "image": "ponies.png",
+        "background": "#000",
+        "message": "Money is nice and useful, but sometimes you just want to change the world. Call it digital social innovation, tech for good or whatever, you can do stuff when you put <b>data, people and technology</b> together. Wanna know how? Come and visit our digital contraptions imaginarium."
+    },
+    {
+        "image": "scumbag.png",
+        "background": "#000",
+        "message": "Yep, there's also that little thing called privacy to cater for, better if we do it properly. There's a lot of it when dealing with <b>data, people and technology</b> together, better asking to who's done this before. You may just need a digital contraption, but a squared one."
     }
 ]
