@@ -1,5 +1,20 @@
 [
     {
+        "image": "porg.png",
+        "background": "#000",
+        "message": "GDPR was a b*mmer if you had no idea where to start. We started by setting up a book club and reading and discussing it with our friends, start to finish, mutiple times. Because <b>personal data is an opportunity</b> once you put your house in order. You're still in pain? Let us help you."
+    },
+    {
+        "image": "gru.png",
+        "background": "#000",
+        "message": "GDPR was a b*mmer if you had no idea where to start. We started by setting up a book club and reading and discussing it with our friends, start to finish, mutiple times. Because <b>personal data is an opportunity</b> once you put your house in order. You're still in pain? Let us help you."
+    },
+    {
+        "image": "data-ownership-delusion.png",
+        "background": "#000",
+        "message": "GDPR was a b*mmer if you had no idea where to start. We started by setting up a book club and reading and discussing it with our friends, start to finish, mutiple times. Because <b>personal data is an opportunity</b> once you put your house in order. You're still in pain? Let us help you."
+    },
+    {
         "image": "knee.png",
         "background": "#000",
         "message": "We won't fix your knee, but can help you address any issue you're dealing with, at the crossings of <b>data, people and technology</b>. You may find out that everything you need is just one of the digital contraptions from our imaginarium."
